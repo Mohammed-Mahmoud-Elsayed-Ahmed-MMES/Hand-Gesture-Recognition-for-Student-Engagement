@@ -55,6 +55,9 @@ The ResNet50 model, fine-tuned with transfer learning, achieved the following pe
 
 The best model was saved after achieving **99.38% validation accuracy** at epoch 20, with early stopping triggered after epoch 27.
 
+## Demo
+ ![Demo](Video/Demo.mp4)
+
 ## Project Structure
 
 ```plaintext
@@ -189,7 +192,7 @@ Class Count Mismatch: If training performance is poor, verify CLASS_COUNTS in co
 ## Future Improvements
 
 Implement dynamic calculation of CLASS_COUNTS based on the cropped dataset to avoid manual updates.
-Add support for additional image formats (e.g., .bmp) in data_preprocessing.py.
+Add the taken images for better generalization that suits all the age variations.
 Enhance data augmentation (e.g., random cropping, color jitter) to improve model robustness.
 Optimize real-time detection for lower latency, critical for real-time student engagement monitoring.
 Integrate with a broader system for comprehensive classroom analytics, such as tracking participation trends.
