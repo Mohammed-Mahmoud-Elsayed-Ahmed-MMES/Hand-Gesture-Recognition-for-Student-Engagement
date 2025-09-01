@@ -56,7 +56,8 @@ The ResNet50 model, fine-tuned with transfer learning, achieved the following pe
 The best model was saved after achieving **99.38% validation accuracy** at epoch 20, with early stopping triggered after epoch 27.
 
 ## Demo
- ![Demo](Video/Demo.mp4)
+![Demo1](Video/Demo1.mp4)
+![Demo2](Video/Demo2.mp4)
 
 ## Project Structure
 
